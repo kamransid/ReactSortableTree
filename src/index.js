@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+//import './index.css';
+// import App from './App';
+import App from './Basic';
 import * as serviceWorker from './serviceWorker';
-
+import 'react-sortable-tree/style.css'
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
